@@ -1,13 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 import './assets/css/index.css'
-import TheHero01 from './components/hero/TheHero01'
-// import ParenTombol from './components/9-ReactUseStateHook/ParenTombol'
+
  
+import Home from './pages/home'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <TheHero01/>
-    {/* <ParenTombol/> */}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
 )
