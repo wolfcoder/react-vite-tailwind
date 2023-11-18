@@ -60,10 +60,16 @@ export default function Contact() {
                                 ></path>
                             </svg>
                         </a>
+                        <a
+                            className="group -m-1 p-1"
+                            aria-label="Follow on GitHub"
+                            href="https://github.com/wolfcoder"
+                        >
+                            <svg viewBox="0 0 24 24" className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"><path d="M357.2,296.9c-17,0-33-7.2-47.4-18.9l3.5-16.6.1-.6c3.2-17.6,13.1-47.2,43.8-47.2a41.65,41.65,0,1,1,0,83.3Zm0-125.5c-39.2,0-69.5,25.4-81.9,67.3-18.8-28.3-33.1-62.2-41.4-90.8H191.7V257.6a39.3,39.3,0,0,1-78.6,0V147.8H71V257.5c0,44.9,36.5,81.8,81.4,81.8s81.4-36.9,81.4-81.8V239.1c8.2,17.1,18.2,34.4,30.4,49.6L238.4,410.1h43.1l18.7-88c16.4,10.5,35.2,17.1,56.8,17.1,46.2,0,83.8-37.8,83.8-84.1a83.65,83.65,0,0,0-83.6-83.7" /></svg>
+                        </a>
+
                     </div>
                 </div>
-
-
             </section>
             <section className='bg-white'>
                 <div className='mx-auto max-w-5xl'>
