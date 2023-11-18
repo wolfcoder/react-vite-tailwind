@@ -1,4 +1,3 @@
-
 import Hero03 from '../components/hero/Hero03';
 
 export default function Home() {
