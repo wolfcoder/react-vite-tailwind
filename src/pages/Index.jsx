@@ -1,12 +1,8 @@
-import Hero03 from '../components/hero/Hero03';
+import Hero03 from '../components/Hero03';
 
 export default function Home() {
     return (
-        <div className="dark:bg-black">
-
-            <Hero03 />
-        </div>
-
+        <Hero03 />
     );
 };
 

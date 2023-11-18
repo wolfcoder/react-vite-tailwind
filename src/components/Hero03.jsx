@@ -8,10 +8,10 @@ export default function Hero02() {
           src="./bams.jpg"
         />
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          Reactjs developer, and entrepreneur enthusiast.
+          Expert Reactjs and WordPress developer.
         </h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m Bams, a frontend developer and entrepreneur based in Bali,
+          I’m Bams, a frontend developer and entrepreneur enthusiast based in Bali,
           Indonesia. I am the founder and CTO of pixelmedia.id, a company
           dedicated to developing various websites and applications. Our mission
           is to assist businesses in solving their problems.
