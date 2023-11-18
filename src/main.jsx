@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom'
 import './assets/css/index.css'
 
  
-import Home from './pages/home';
+import Home from './pages/Index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
