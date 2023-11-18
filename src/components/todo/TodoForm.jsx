@@ -24,7 +24,7 @@ export default function TodoForm(props) {
         onChange={handleInputChange}
         type="text"
         placeholder="Add todo"
-        className="border-2 border-solid border-gray-400 p-1 w-full rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        className="border border-solid border-gray-400 p-1 w-full rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
       />
       {inputTodoError && <small className="text-red-300">Todo Can not blank</small>}
     </form>
