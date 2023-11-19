@@ -16,7 +16,7 @@ export default function Contact() {
 
     return (
         <>
-            <section className=" max-w-5xl card-profile py-28 px-5 mx-auto ">
+            <section className="bg-black max-w-5xl card-profile py-28 px-5 mx-auto ">
                 <div className="max-w-2xl">
                     <img
                         alt="Bams"

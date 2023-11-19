@@ -13,13 +13,13 @@ import Contact from './pages/Contact'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <div className='dark:bg-black bg-black'>
+     
         <Header01 />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-      </div>
+     
     </BrowserRouter>
   </React.StrictMode>,
 )
